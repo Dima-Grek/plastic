@@ -2,14 +2,14 @@
     --main-text-color: #757575;
     --title-color: #212121;
     --alternative-text-color: #ffffff;
-    --alternative-title-color: #ffffff;
+    --alternative-title-color: #e6870b;
     --button-color: #ffffff;
     --link-color: #212121;
-    --link-alt-color: #2196F3;
+    --link-alt-color: #e6870b;
     --dark-bg-color: #626369;
     --header-color: #ffffff;
-    --active-link-color: #2196f3;
-    --main-font: "Roboto", "Tourney", sans-serif;
+    --active-link-color: #e6870b;
+    --main-font: "Roboto", sans-serif;
     --logo-font: "Raleway";
     --page-tex-for-images: font-size: 16px, font-style: regular;
     --card-set-gap: 30px;
@@ -101,7 +101,7 @@ p {
 }
 
 .logo-cl {
-    color: #2196f3;
+    color: #e6870b;
 }
 
 .logo-header {
@@ -196,8 +196,7 @@ p {
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Tourney;
-    font-weight: 400;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -482,6 +481,8 @@ p {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
 }
 
 .card-set>.item {
@@ -523,8 +524,6 @@ p {
 .card2 {
     background: #ffffff;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card-text {
@@ -545,4 +544,11 @@ p {
 .card-thumb-text {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+}
+
+.img-bg-footer {
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/icons/plastic1.png);
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
