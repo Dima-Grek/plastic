@@ -216,64 +216,6 @@ p {
 }
 
 
-/*кнопка*/
-
-
-/*.btn {
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-}
-
-
-/*цвета кнопки страницы сайт*/
-
-
-/*.btn-page-site {
-    display: block;
-    min-width: 200px;
-    min-height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: var(--alternative-title-color);
-    background-color: #2196F3;
-}
-
-.btn-page-site:hover,
-.btn-page-site:focus {
-    color: var(--link-color)
-}
-
-
-/*цвета кнопки страницы сайт*/
-
-
-/*.btn-portfolio-cl {
-    margin-right: 10px;
-    padding: 6px 22px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.39;
-    color: var(--link-color);
-    background-color: #F5F4FA;
-}
-
-
-/*цвета кнопки страницы портфолио*/
-
-
-/*.btn-portfolio-cl:hover,
-.btn-portfolio-cl:focus {
-    color: var(--alternative-title-color);
-    background-color: #2196F3;
-}
-
-
 /*выравниваем меню*/
 
 .nav {
@@ -288,11 +230,6 @@ p {
 
 .menu-item:not(:last-child) {
     margin-right: var(--btn-link);
-}
-
-.menu-item-portfolio {
-    margin-right: var(--btn-link);
-    margin-right: calc(-1 * var(--btn-link));
 }
 
 
@@ -313,12 +250,6 @@ p {
     align-items: stretch;
     margin-left: calc(-1 * var(--card-set-gap));
     margin-top: calc(-1 * var(--card-set-gap));
-}
-
-.container>.item-flex {
-    flex-basis: calc(100% / 4 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
 }
 
 .list-btn {
@@ -347,25 +278,6 @@ p {
     text-transform: uppercase;
 }
 
-.page-title-team {
-    margin-top: var(--card-set-gap);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-
-
-/*стили текста страница портфолио*/
-
-.page-title-portfolio {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.71;
-    text-align: left;
-    letter-spacing: 0.06em;
-}
-
 
 /*Стили заголовков h2*/
 
@@ -388,35 +300,8 @@ p {
 
 /*стили текста секция 2 страница сайт*/
 
-.page-text-section-two {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.7;
-    vertical-align: top;
-    letter-spacing: 0.03em;
-}
-
-.page-tex-for-images {
-    margin: 0;
-    max-width: 270px;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    font-size: var(--page-tex-for-images);
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-}
-
 
 /*стили текста секция 4 страница сайт*/
-
-.title-team {
-    max-width: 270px;
-    text-align: center;
-    margin-top: var(--card-set-gap);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
 
 .section-bg {
     background-color: #F5F4FA;
@@ -489,61 +374,6 @@ p {
     flex-basis: calc(100% / 2- var(--card-set-gap));
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
-}
-
-.card-set>.item1 {
-    flex-basis: calc(100% / 4 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-}
-
-
-/* CARD */
-
-.card {
-    background: #FFFFFF;
-    border-bottom: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    box-shadow: var(--box-shadow);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.card-content {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.71;
-    text-align: left;
-    letter-spacing: 0.06em;
-}
-
-.card1 {
-    background: #476170;
-    box-sizing: border-box;
-}
-
-.card2 {
-    background: #ffffff;
-    box-sizing: border-box;
-}
-
-.card-text {
-    margin-top: 4px;
-    font-size: var(--page-tex-for-images);
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-}
-
-.card-thumb-site {
-    padding-left: 30px;
-}
-
-.card-thumb-pf {
-    margin-top: 56px;
-}
-
-.card-thumb-text {
-    padding: 20px 24px;
-    border: 1px solid #EEEEEE;
 }
 
 .img-bg-footer {
